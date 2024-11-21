@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Ethungshan Shitiri - Wireless Communication Specialist</title>
+    <title>Ethungshan Shitiri</title>
     <style>
         :root {
             --primary-color: #000000; /* Black */
@@ -166,6 +166,27 @@
             height: auto;
         }
 
+        #go-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 10px 15px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            display: none;
+            z-index: 1000;
+        }
+
+        #go-to-top:hover {
+            background-color: var(--primary-color);
+            transform: scale(1.05);
+        }
+
         @media (max-width: 768px) {
             header h1 {
                 font-size: 3rem;
@@ -188,11 +209,25 @@
             }
         }
     </style>
+    <script>
+        window.addEventListener('scroll', function() {
+            const goToTopButton = document.getElementById('go-to-top');
+            if (window.scrollY > 300) {
+                goToTopButton.style.display = 'block';
+            } else {
+                goToTopButton.style.display = 'none';
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </head>
 <body>
     <header>
-        <h1>Dr. Ethungshan Shitiri</h1>
-        <p>Wireless Communication Specialist | Researcher | Innovator</p>
+        <h1>Ethungshan Shitiri</h1>
+        
     </header>
     <nav>
         <ul>
@@ -236,7 +271,8 @@
         </div>
     </section>
     <footer>
-        <p>&copy; 2023 Dr. Ethungshan Shitiri | All Rights Reserved</p>
+        <p>&copy; 2024 Ethungshan Shitiri | All Rights Reserved</p>
     </footer>
+    <button id="go-to-top" onclick="scrollToTop()">Go to Top</button>
 </body>
 </html>
