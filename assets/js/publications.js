@@ -8,6 +8,23 @@ function escapeHTML(str){
   return str.replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 }
 
+function keepAuthorNamesTogether(text){
+  const splitMarkers = ["&quot;", "\"", "“"];
+  let splitAt = text.length;
+  splitMarkers.forEach(marker => {
+    const idx = text.indexOf(marker);
+    if(idx >= 0) splitAt = Math.min(splitAt, idx);
+  });
+
+  const authorSection = text.slice(0, splitAt)
+    // Initial + surname, e.g. "A. Yadav"
+    .replace(/\b([A-Z]\.)\s+([A-Z][A-Za-z-]+)/g, "$1&nbsp;$2")
+    // First name + surname, e.g. "Tania Islam"
+    .replace(/\b([A-Z][a-z]+)\s+([A-Z][A-Za-z-]+)/g, "$1&nbsp;$2");
+
+  return authorSection + text.slice(splitAt);
+}
+
 function highlightName(text){
   const variants = [
     "Ethungshan Shitiri",
@@ -17,7 +34,7 @@ function highlightName(text){
   let out = text;
   variants.forEach(v => {
     const re = new RegExp(v.replace(".", "\\."), "g");
-    out = out.replace(re, "<strong>" + v + "</strong>");
+    out = out.replace(re, `<strong class="authorName">${v.replace(/ /g, "&nbsp;")}</strong>`);
   });
   return out;
 }
@@ -127,7 +144,7 @@ function renderByType(list, forceAllTypes){
 
       yearItems.forEach(p => {
         const li = document.createElement("li");
-        const safe = escapeHTML(p.text || "");
+        const safe = keepAuthorNamesTogether(escapeHTML(p.text || ""));
         const label = escapeHTML(String(p._label || ""));
         li.innerHTML = `<span class="pubId">${label}</span>` + highlightName(safe) + doiLink(p.doi);
         ul.appendChild(li);
