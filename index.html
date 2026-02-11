@@ -1,308 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethungshan Shitiri</title>
-    <style>
-        :root {
-            --primary-color: #000000; /* Black */
-            --accent-color: #F8BC24; /* Vibrant Gold */
-            --background-color: #F5F5F7; /* Light Grey */
-            --text-color: #1F1F1F; /* Dark Grey */
-            --white: #FFFFFF; /* White */
-        }
-
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            line-height: 1;
-            overflow-x: hidden;
-            font-size: 14px;
-        }
-
-        header {
-            background: var(--primary-color);
-            color: var(--white);
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 400;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: clamp(1rem, 3vw, 1.5rem);
-            font-weight: 300;
-            margin-top: 10px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            padding: 20px 0;
-            position: sticky;
-            top: 0;
-            background: var(--white);
-            z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav li {
-            margin: 0 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            font-size: 1.2rem;
-            color: var(--text-color);
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: var(--accent-color);
-        }
-
-        .hero {
-            text-align: center;
-            padding: 100px 20px;
-            background: var(--background-color);
-        }
-
-        .hero h2 {
-            font-size: clamp(1.5rem, 4vw, 2.5rem);
-            font-weight: 500;
-            margin-bottom: 20px;
-            color: var(--primary-color);
-        }
-
-        .hero p {
-            font-size: clamp(1rem, 2.5vw, 1.2rem);
-            font-weight: 300;
-            max-width: 800px;
-            margin: 0 auto 40px;
-            color: var(--text-color);
-        }
-
-        .cta {
-            margin-top: 20px;
-        }
-
-        .cta a {
-            text-decoration: none;
-            color: var(--white);
-            background-color: var(--accent-color);
-            padding: 12px 30px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 30px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .cta a:hover {
-            background-color: var(--primary-color);
-            transform: scale(1.05);
-        }
-
-        section {
-            text-align: center;
-            padding: 60px 20px;
-            background: var(--white);
-        }
-
-        section h2 {
-            font-size: clamp(1.5rem, 3vw, 2rem);
-            margin-bottom: 20px;
-            color: var(--primary-color);
-        }
-
-        section p {
-            font-size: 1.1rem;
-            font-weight: 300;
-            max-width: 700px;
-            margin: 0 auto 40px;
-            color: var(--text-color);
-        }
-
-        footer {
-            background: var(--primary-color);
-            color: var(--white);
-            padding: 40px 20px;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .social-links a {
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            transition: transform 0.3s ease;
-        }
-
-        .social-links a:hover {
-            transform: scale(1.1);
-        }
-
-        .social-links img {
-            width: 100%;
-            height: auto;
-        }
-
-        #go-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background-color: var(--accent-color);
-            color: var(--white);
-            padding: 10px 15px;
-            font-size: 1.1rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-            display: none;
-            z-index: 1000;
-        }
-
-        #go-to-top:hover {
-            background-color: var(--primary-color);
-            transform: scale(1.05);
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 3rem;
-            }
-
-            header p {
-                font-size: 1.2rem;
-            }
-
-            nav ul {
-                flex-direction: row;
-            }
-
-            .hero h2 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-        }
-    </style>
-    <script>
-        window.addEventListener('scroll', function() {
-            const goToTopButton = document.getElementById('go-to-top');
-            if (window.scrollY > 300) {
-                goToTopButton.style.display = 'block';
-            } else {
-                goToTopButton.style.display = 'none';
-            }
-        });
-
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    </script>
-
-<script>
-        function updateTextContent() {
-            // Header Section
-            document.querySelector('header h1').textContent = 'Ethungshan Shitiri';
-            document.querySelector('header p').textContent = 'Group Leader (HUMAN, N3Cat) | MSCA Postdoc Fellow';
-
-            // Hero Section
-            document.querySelector('.hero h2').textContent = 'Explore My Professional Journey';
-            document.querySelector('.hero p').textContent = 'Innovating at the intersection of wireless communication and healthcare solutions.';
-
-            // About Section
-            document.querySelector('#about h2').textContent = 'About Me';
-            document.querySelector('#about p').textContent = 'Over ten years of expertise in wireless communications and nanoscale technologies, focusing on bringing revolutionary healthcare solutions to the real world.';
-
-            // Projects Section
-            document.querySelector('#projects h2').textContent = 'Projects';
-            document.querySelector('#projects p').textContent = 'Developing biocompatible nanosensors for real-time biomarker detection to enhance non-invasive diagnostics for chronic diseases.';
-
-            // Contact Section
-            document.querySelector('#contact h2').textContent = 'Contact';
-            document.querySelector('#contact p').innerHTML = 'Email: <a href="mailto:ethungshan.shitiri@upc.edu">ethungshan.shitiri@upc.edu</a>';
-
-            // Footer
-            document.querySelector('footer p').textContent = '© 2024 Ethungshan Shitiri | All Rights Reserved';
-        }
-
-        document.addEventListener('DOMContentLoaded', updateTextContent);
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethungshan Shitiri</title>
+  <meta name="description" content="Academic portfolio of Ethungshan Shitiri">
+  <link rel="icon" href="assets/img/profile-placeholder.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/extra.css">
 </head>
 <body>
-    <header>
-        <h1></h1>
-        <p></p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="hero">
-        <h2></h2>
-        <p></p>
-        <div class="cta">
-            <a href="CV.pdf" download>Download CV</a>
+  <div class="topbar">
+    <div class="container">
+      <div class="nav">
+        <div class="brand">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Ethungshan Shitiri</span>
         </div>
+        <nav class="navlinks" aria-label="Primary">
+          <a href="index.html#about">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="cv.html">CV</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
     </div>
+  </div>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container">
+        <div class="heroGrid">
+          <div class="card heroCard">
+            <div class="kicker">Group Leader at N3Cat, UPC Barcelona</div>
+            <h1>Ethungshan Shitiri</h1>
+            <p class="tagline">Ultra low power nanoscale systems for in body diagnostics and monitoring</p>
+
+            <p class="small">
+              I lead research on intra body nanonetworks, molecular communication, and nanoscale sensing with a focus on practical system level models for early stage disease detection.
+            </p>
+
+            <div class="actions">
+              <a class="btn primary" href="publications.html">View publications</a>
+              <a class="btn" href="projects.html">View projects</a>
+              <a class="btn" href="assets/files/Ethungshan_Shitiri_CV.pdf" download>Download CV PDF</a>
+              <a class="btn" href="cv.html">Web CV for printing</a>
+              <a class="btn" data-email href="mailto:ethungshan.shitiri@upc.edu">Email</a>
+            </div>
+
+            <hr class="sep">
+
+            <div class="badge">Edit site content in assets/data</div>
+            <ul class="list">
+              <li>News feed is in assets/data/news.json</li>
+              <li>Projects are in assets/data/projects.json</li>
+              <li>Publications are in assets/data/publications.json</li>
+            </ul>
+          </div>
+
+          <div class="card profileCard">
+            <div class="profileImg" aria-label="Profile photo">
+              <img src="assets/img/profile-placeholder.svg" alt="Profile photo placeholder">
+            </div>
+            <div class="miniRow" aria-label="Affiliations">
+              <img src="assets/img/upc.svg" alt="UPC logo placeholder">
+              <img src="assets/img/n3cat.svg" alt="N3Cat logo placeholder">
+            </div>
+            <div class="miniNote">
+              Replace the placeholder image with assets/img/profile.jpg and update the img tag in index.html if you want.
+            </div>
+            <div class="pill">
+              <a id="scholarLink" href="#" target="_blank" rel="noopener">Google Scholar</a>
+              <span aria-hidden="true">•</span>
+              <a id="orcidLink" href="#" target="_blank" rel="noopener">ORCID</a>
+              <span aria-hidden="true">•</span>
+              <a id="githubLink" href="#" target="_blank" rel="noopener">GitHub</a>
+              <span aria-hidden="true">•</span>
+              <a id="linkedinLink" href="#" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="container">
+        <h2>Research</h2>
+        <div class="grid2">
+          <div class="card panel">
+            <div class="badge">Focus areas</div>
+            <ul class="list">
+              <li>Intra body nanonetworks and molecular communication</li>
+              <li>System level modeling for sensing performance and time to detection</li>
+              <li>Nanoscale sensing interfaces and biophysical constraints in whole blood</li>
+              <li>Near field passive wireless concepts for in body monitoring</li>
+            </ul>
+          </div>
+          <div class="card panel">
+            <div class="badge">How to read this site</div>
+            <p class="small">
+              Start with Projects for current funded work, then Publications for the full list. The CV page is a web friendly version that you can print to PDF using your browser.
+            </p>
+            <p class="small">
+              This site is plain HTML, CSS, and small JavaScript so it loads fast and is easy to edit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="container">
+        <h2>News</h2>
+        <div class="card panel">
+          <div id="newsList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="card panel">
+          <p class="small">Email is the best way to reach me.</p>
+          <p><a data-email href="mailto:ethungshan.shitiri@upc.edu">ethungshan.shitiri@upc.edu</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footerInner">
+        <div>© 2026 Ethungshan Shitiri</div>
+        <div class="pill">
+          <a href="assets/files/Ethungshan_Shitiri_CV.pdf" download>CV PDF</a>
+          <span aria-hidden="true">•</span>
+          <a href="assets/files/Ethungshan_Shitiri_Publications.pdf" download>Publications PDF</a>
+        </div>
+      </div>
     </div>
-    <section id="about">
-        <h2></h2>
-        <p></p>
-    </section>
-    <section id="projects">
-        <h2></h2>
-        <p></p>
-        <div class="cta">
-            <a href="https://sites.google.com/view/benifit-project/home" target="_blank">Learn More</a>
-        </div>
-    </section>
-    <section id="contact">
-        <h2></h2>
-        <p></p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/ethungshan-shitiri/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-            </a>
-            <a href="https://scholar.google.co.kr/citations?user=pbAP-VQAAAAJ&hl=en" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" alt="Google Scholar">
-            </a>
-            <a href="https://n3cat.upc.edu/members/ethungshan-shitiri-2/" target="_blank">
-                <img src="https://n3cat.upc.edu/favicon.ico" alt="N3Cat">
-            </a>
-        </div>
-    </section>
-    <footer>
-        <p></p>
-    </footer>
-    <button id="go-to-top" onclick="scrollToTop()">Go to Top</button>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/news.js"></script>
 </body>
 </html>

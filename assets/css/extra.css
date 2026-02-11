@@ -1,0 +1,35 @@
+.pageHead{padding:34px 0 14px}
+.pageHead h1{font-size:34px; margin:0 0 8px}
+.pageHead p{margin:0; color:var(--muted)}
+.toolbar{
+  display:flex; gap:10px; flex-wrap:wrap;
+  margin-top:14px;
+}
+.input, select{
+  padding:10px 12px;
+  border-radius:14px;
+  border:1px solid var(--border);
+  background:var(--panel);
+  color:var(--text);
+  min-width: 220px;
+}
+.pubYear{margin:18px 0}
+.pubYear h2{margin:0 0 10px}
+.pubOl{
+  margin:0;
+  padding-left: 20px;
+  color:var(--muted);
+}
+.pubOl li{margin:10px 0}
+.pubOl .doi{margin-left:8px; font-size:13px}
+.proj{padding:16px; border:1px solid var(--border); border-radius:var(--radius); background:var(--panel); box-shadow: var(--shadow); margin:12px 0}
+.proj h3{margin:0 0 6px; font-size:18px}
+.projMeta{color:var(--muted); font-size:13px}
+.projSmall{color:var(--muted2); font-size:12px; margin-top:8px}
+.printNote{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
+@media print{
+  .topbar, .actions, .printNote, .footer{display:none !important}
+  body{background:#fff}
+  .card{box-shadow:none}
+  a{text-decoration:none}
+}

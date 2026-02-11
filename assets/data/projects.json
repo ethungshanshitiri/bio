@@ -1,0 +1,57 @@
+[
+  {
+    "title": "BeNiFIt, Fully Biocompatible Intrabody Nanoscale Communication System to Foster Novel In-Body Diagnostics and Monitoring Systems",
+    "grantor": "European Commission",
+    "start": "2024-04-01",
+    "end": "2026-03-31",
+    "currency": "€",
+    "amount": "165,313",
+    "role": "Principal",
+    "raw": "BeNiFIt: Fully Biocompatible European Commission 2024.04.01 € 165,313 Principal Intrabody Nanoscale – Investigator Communication System to 2026.03.31 Foster Novel In-Body Diagnostics and Monitoring Systems",
+    "summary": "Biocompatible intrabody nanonetworks for novel in body diagnostics and monitoring."
+  },
+  {
+    "title": "Targeted Drug Delivery using Cooperative Molecular Communications between Multiple Nanomachines",
+    "grantor": "National Research Foundation of Korea",
+    "start": "2021-03-01",
+    "end": "2024-02-28",
+    "currency": "$",
+    "amount": "280,000",
+    "role": "Scientific lead",
+    "raw": "Targeted Drug Delivery using National Research 2021.03.01 $ 280,000 Scientific lead Cooperative Molecular Foundation of Korea – Communications between 2024.02.28 Multiple Nanomachines",
+    "summary": "Targeted drug delivery using cooperative molecular communications among multiple nanomachines."
+  },
+  {
+    "title": "Synchronization and Medium Access Control in Molecular Communication Networks",
+    "grantor": "National Research Foundation of Korea",
+    "start": "2017-03-01",
+    "end": "2020-02-29",
+    "currency": "$",
+    "amount": "210,000",
+    "role": "Scientific lead",
+    "raw": "Synchronization and Medium National Research 2017.03.01 $ 210,000 Scientific lead Access Control in Molecular Foundation of Korea – Communication Networks 2020.02.29",
+    "summary": "Synchronization and medium access control methods for molecular communication networks."
+  },
+  {
+    "title": "Development of Distributed Underwater Monitoring and Control Networks",
+    "grantor": "Korea Institute of Marine Science and Technology Promotion",
+    "start": "2015-03-01",
+    "end": "Present",
+    "currency": "$",
+    "amount": "1,000,000",
+    "role": "Team member",
+    "raw": "Development of Distributed Korea Institute of 2015.03.01 $ 1,000,000 Team member Underwater Monitoring & Marine Science and – Control Networks Technology Promotion Present",
+    "summary": "Distributed underwater monitoring and control networks."
+  },
+  {
+    "title": "Conventions, Resource Coding and Allocation in Mobile and Sensor Networks",
+    "grantor": "Formation par la Recherche, France",
+    "start": "2013-01-01",
+    "end": "2013-04-30",
+    "currency": null,
+    "amount": null,
+    "role": "Team member",
+    "raw": "Conventions 2013.01.01 – Team member Resource Coding and Industrielles de – Allocation in Mobile and Formation par la 2013.04.30 Sensor Networks Recherche, France",
+    "summary": "Resource coding and allocation in mobile and sensor networks."
+  }
+]
