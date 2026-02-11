@@ -41,6 +41,8 @@
 }
 
 .pubOl .doi{margin-left:8px; font-size:13px}
+.authorName{white-space:nowrap; color:var(--accent2); font-weight:700}
+.venueLink{font-weight:600}
 .proj{padding:16px; border:1px solid var(--border); border-radius:var(--radius); background:var(--panel); box-shadow: var(--shadow); margin:12px 0}
 .proj h3{margin:0 0 6px; font-size:18px}
 .projMeta{color:var(--muted); font-size:13px}

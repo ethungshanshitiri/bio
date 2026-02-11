@@ -8,6 +8,25 @@ function escapeHTML(str){
   return str.replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 }
 
+function escapeRegExp(value){
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function keepAuthorNamesTogether(text){
+  const splitMarkers = ["&quot;", "\"", "“"];
+  let splitAt = text.length;
+  splitMarkers.forEach(marker => {
+    const idx = text.indexOf(marker);
+    if(idx >= 0) splitAt = Math.min(splitAt, idx);
+  });
+
+  const authorSection = text.slice(0, splitAt)
+    // Keep the full author segment together by converting its spaces to non-breaking spaces.
+    .replace(/\s+/g, "&nbsp;");
+
+  return authorSection + text.slice(splitAt);
+}
+
 function highlightName(text){
   const variants = [
     "Ethungshan Shitiri",
@@ -16,8 +35,30 @@ function highlightName(text){
   ];
   let out = text;
   variants.forEach(v => {
-    const re = new RegExp(v.replace(".", "\\."), "g");
-    out = out.replace(re, "<strong>" + v + "</strong>");
+    const parts = v.split(" ").map(escapeRegExp);
+    const pattern = parts.join("(?:\\s|&nbsp;)");
+    const re = new RegExp(pattern, "g");
+    out = out.replace(re, (m) => `<strong class="authorName">${m}</strong>`);
+  });
+  return out;
+}
+
+const CONFERENCE_LINKS = [
+  { token: "NANOCOM", url: "https://www.nanocom.acm.org/" },
+  { token: "ICUFN", url: "https://www.icufn.org/" },
+  { token: "TENSYMP", url: "https://ieeer10.org/activities/conferences/symposium/" },
+  { token: "MolCom", url: "https://www.molcom.org/" },
+  { token: "KICS", url: "https://www.kics.or.kr/" },
+  { token: "JCCI", url: "https://www.kics.or.kr/jcci/" }
+];
+
+function linkConferenceVenues(text, type){
+  if(type !== "Conference") return text;
+
+  let out = text;
+  CONFERENCE_LINKS.forEach(link => {
+    const re = new RegExp(`\\b${escapeRegExp(link.token)}\\b`, "g");
+    out = out.replace(re, `<a class="venueLink" href="${link.url}" target="_blank" rel="noopener">${link.token}</a>`);
   });
   return out;
 }
@@ -127,9 +168,10 @@ function renderByType(list, forceAllTypes){
 
       yearItems.forEach(p => {
         const li = document.createElement("li");
-        const safe = escapeHTML(p.text || "");
+        const safe = keepAuthorNamesTogether(escapeHTML(p.text || ""));
         const label = escapeHTML(String(p._label || ""));
-        li.innerHTML = `<span class="pubId">${label}</span>` + highlightName(safe) + doiLink(p.doi);
+        const withVenueLinks = linkConferenceVenues(safe, p.type || "Other");
+        li.innerHTML = `<span class="pubId">${label}</span>` + highlightName(withVenueLinks) + doiLink(p.doi);
         ul.appendChild(li);
       });
 
