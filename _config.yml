@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                  : "en-US"
 site_theme              : "default"
-title                   : "Ethungshan Shitiri, Ph.D. | Academic Portfolio"
+title                   : "Ethungshan Shitiri"
 title_separator         : "-"
 name                    : &name "Ethungshan Shitiri"
 description             : &description "Group Leader at N3Cat, UPC. Researcher in intra-body nanonetworks and molecular communication."
