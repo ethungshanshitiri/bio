@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Contact"
+title: ""
 permalink: /contact/
 author_profile: false
 ---
@@ -10,7 +10,7 @@ author_profile: false
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
     
     <div>
-      <h3 style="margin-top: 0;"><i class="fa-solid fa-location-dot" style="color: #0056b3; margin-right: 10px;"></i> Office Address</h3>
+      <h3 style="margin-top: 0;"><i class="fa-solid fa-location-dot" style="color: #0056b3; margin-right: 10px;"></i> Address</h3>
       <p>
         <strong>N3Cat (NaNoNetworking Center in Catalunya)</strong><br>
         Universitat Politècnica de Catalunya (UPC)<br>
@@ -21,11 +21,6 @@ author_profile: false
       <h3 style="margin-top: 25px;"><i class="fa-solid fa-envelope" style="color: #0056b3; margin-right: 10px;"></i> Email</h3>
       <p><a href="mailto:ethungshan.shitiri@upc.edu">ethungshan.shitiri@upc.edu</a></p>
 
-      <h3 style="margin-top: 25px;"><i class="fa-solid fa-link" style="color: #0056b3; margin-right: 10px;"></i> Digital Presence</h3>
-      <p>
-        <a href="https://linkedin.com/in/ethungshan-shitiri" target="_blank" style="margin-right: 15px;"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-        <a href="https://scholar.google.com/citations?user=pbAP-VQAAAAJ" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
-      </p>
     </div>
 
     <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
