@@ -21,5 +21,5 @@ author_profile: false
 
 ## News
 * **[April 2024]** Awarded the EU MMarie Currie Fellowship for the BeNiFIt Project at UPC Barcelona.
-* * **[April 2021]** Best Paper Award 
+* **[April 2021]** Best Paper Award 
 
