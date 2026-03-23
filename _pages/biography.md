@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: ""
 permalink: /biography/
 author_profile: false
