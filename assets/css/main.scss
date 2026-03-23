@@ -41,3 +41,19 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.masthead__menu-item--lg {
+  a {
+    font-weight: 900 !important;   /* Extra bold */
+    color: #000 !important;        /* Deep black */
+    font-size: 22px !important;    /* Slightly larger */
+    text-transform: uppercase;     /* Professional header style */
+    letter-spacing: 1px;           /* Cleaner spacing between letters */
+  }
+}
+
+/* This makes sure the "Home" name doesn't change color 
+   too much when you are actually on the home page */
+.masthead__menu-item--lg.selected a {
+  color: #000 !important;
+}
