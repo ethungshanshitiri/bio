@@ -3,62 +3,19 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+### Education
+* [cite_start]**Ph.D. in Electronics Engineering**, Kyungpook National University, 2018 (Outstanding Thesis Award) [cite: 46-51].
+* **M.S. in Electronics and Communication Engineering**, Christ University, 2013 (Second-best Thesis Award) [cite: 52-57].
+* [cite_start]**B.S. in Electronics and Communication Engineering**, TPGIT, 2010 [cite: 58-60].
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Major Research Grants
+* [cite_start]**PI:** BeNiFIt (Fully Biocompatible Intrabody Nanoscale Communication System), European Commission (€165,313), 2024–2026[cite: 93].
+* **Scientific Lead:** Targeted Drug Delivery using Cooperative Molecular Communications, NRF Korea ($280,000), 2021–2024[cite: 93, 94].
+* [cite_start]**Scientific Lead:** Synchronization and MAC in Molecular Communication Networks, NRF Korea ($210,000), 2017–2020[cite: 98].
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Honors & Awards
+* [cite_start]**Marie Curie Postdoctoral Fellowship** (Score 97/100), 2024[cite: 87].
+* **Best Paper Award**, KICS Fall Conference, 2021[cite: 88].
+* [cite_start]**KNU-Qualcomm Paper Innovation Award**, 2016[cite: 90].
