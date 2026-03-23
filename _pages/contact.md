@@ -24,7 +24,15 @@ author_profile: false
     </div>
 
     <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d2993.456636735749!2d2.1103!3d41.3888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49856a5985049%3A0x673c68377488825a!2sCarrer%20de%20Jordi%20Girona%2C%201%2C%2008034%20Barcelona!5e0!3m2!1sen!2ses!4v1700000000000!5m2!1sen!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.4568843973344!2d2.112217676644026!3d41.38589519675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49856a5757575%3A0x6b777a8080808080!2sCarrer%20de%20Jordi%20Girona%2C%201%2C%203%2C%20Les%20Corts%2C%2008034%20Barcelona%2C%20Spain!5e0!3m2!1sen!2ses!4v1710000000000!5m2!1sen!2ses" 
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
     </div>
 
   </div>
