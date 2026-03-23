@@ -13,9 +13,9 @@ title                   : "Ethungshan Shitiri, Ph.D. | Academic Portfolio"
 title_separator         : "-"
 name                    : &name "Ethungshan Shitiri"
 description             : &description "Group Leader at N3Cat, UPC. Researcher in intra-body nanonetworks and molecular communication."
-url                     : "https://ethungshanshitiri.github.io/bio/" # UPDATE THIS
+url                     : "https://ethungshanshitiri.github.io" # UPDATE THIS
 baseurl                 : ""
-repository              : "academicpages/academicpages.github.io" # UPDATE THIS
+repository              : "ethungshanshitiri/ethungshanshitiri.github.io" # UPDATE THIS
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
