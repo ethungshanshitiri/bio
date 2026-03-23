@@ -40,7 +40,7 @@ author_profile: false
   <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
 
   <p style="text-align: center; color: #777; font-style: italic;">
-    For collaboration inquiries regarding the BeNiFIt project or intra-body nanonetworks, please feel free to reach out via email.
+    For inquiries regarding open positions, please feel free to reach out via email.
   </p>
 
 </div>
