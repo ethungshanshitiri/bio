@@ -11,7 +11,9 @@ author_profile: false
   <p>Universitat Politècnica de Catalunya (UPC)</p>
   
   <div style="margin-top: 30px;">
-    ## News
-    Coming soon...
+    
   </div>
 </div>
+
+## News
+    Coming soon...
