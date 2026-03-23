@@ -7,7 +7,7 @@ author_profile: false
 
 <div style="text-align: center; margin-top: 80px; padding: 20px;">
   
-  <img src="{{ '/images/profile.png' | relative_url }}" 
+  <img src="{{ '/images/profile.jpeg' | relative_url }}" 
        style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 3px solid #f0f0f0; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   
   <p style="font-size: 1.2em; color: #555; margin-bottom: 5px;">
