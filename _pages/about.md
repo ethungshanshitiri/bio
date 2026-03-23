@@ -17,7 +17,7 @@ author_profile: false
   
 </div>
 
-<hr style="margin: 60px 0; border: 0; border-top: 1px solid #eee;">
+<hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
 
 ## News
 * **[April 2024]** Awarded the EU MMarie Currie Fellowship for the BeNiFIt Project at UPC Barcelona.
