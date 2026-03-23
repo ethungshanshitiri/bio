@@ -7,44 +7,30 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+locale                  : "en-US"
+site_theme              : "default"
+title                   : "Ethungshan Shitiri, Ph.D. | Academic Portfolio"
+title_separator         : "-"
+name                    : &name "Ethungshan Shitiri"
+description             : &description "Group Leader at N3Cat, UPC. Researcher in intra-body nanonetworks and molecular communication."
+url                     : "https://ethungshan.github.io" # UPDATE THIS
+baseurl                 : ""
+repository              : "ethungshanshitiri/ethungshan.github.io" # UPDATE THIS
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
-
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  avatar           : "profile.png" # Place your photo in /images/profile.png
+  name             : "Ethungshan Shitiri"
+  bio              : "Group Leader at N3Cat, Universitat Politècnica de Catalunya. 2024 Marie Curie Postdoctoral Fellow."
+  location         : "Barcelona, Spain"
+  employer         : "Universitat Politècnica de Catalunya (UPC)"
+  email            : "ethungshan.shitiri@upc.edu"
+  googlescholar    : "" # Add your ID if available
+  orcid            : "" # Add your ID if available
+  linkedin         : "ethungshan-shitiri"
+  github           : "yourusername"
 
 
   # Repositories and software development
@@ -57,7 +43,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -85,7 +71,7 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: 'Books & Chapters'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
