@@ -15,7 +15,7 @@ name                    : &name "Ethungshan Shitiri"
 description             : &description "Group Leader at N3Cat, UPC. Researcher in intra-body nanonetworks and molecular communication."
 url                     : "https://ethungshanshitiri.github.io" # UPDATE THIS
 baseurl                 : "/bio"
-repository              : "ethungshanshitiri/ethungshanshitiri.github.io" # UPDATE THIS
+repository              : "ethungshanshitiri/bio" # UPDATE THIS
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -27,7 +27,7 @@ author:
   location         : "Barcelona, Spain"
   employer         : "Universitat Politècnica de Catalunya (UPC)"
   email            : "ethungshan.shitiri@upc.edu"
-  googlescholar    : "pbAP-VQAAAAJ&hl" # Add your ID if available
+  googlescholar    : "pbAP-VQAAAAJ" # Add your ID if available
   orcid            : "0000-0002-8696-0920" # Add your ID if available
   linkedin         : "ethungshan-shitiri"
   github           : "ethungshanshitiri"
