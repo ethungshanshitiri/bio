@@ -6,16 +6,16 @@ author_profile: false
 ---
 
 <style>
-.archive ul {
-  list-style-position: inside;
-  padding-left: 0;
+.archive ul li {
+  margin-bottom: 0em !important;
 }
 
-.archive ul li {
-  margin-bottom: 0 !important;
-  line-height: 1.2;
+.archive li ul,
+.archive li ol {
+  margin-top: 0em !important;
 }
 </style>
+
 
 **Current**
 {% for student in site.data.team.current %}
