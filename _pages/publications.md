@@ -27,16 +27,16 @@ You can also find my research on [Google Scholar](https://scholar.google.co.kr/c
 {% endif %}
 
 {% if conference_papers.size > 0 %}
-# Conference Papers
+**Conference Papers**
 {% include publication-list.html items=conference_papers prefix="C" %}
 {% endif %}
 
 {% if preprints.size > 0 %}
-# Preprints
+**Preprints**
 {% include publication-list.html items=preprints prefix="P" %}
 {% endif %}
 
 {% if other_publications.size > 0 %}
-# Other Publications
+**Other Publications**
 {% include publication-list.html items=other_publications prefix="O" %}
 {% endif %}
