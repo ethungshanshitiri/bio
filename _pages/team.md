@@ -7,7 +7,7 @@ author_profile: false
 
 ## Current
 {% for name in site.data.team.current %}
-* {{ name }}
+* {{ student.name }} ({{ student.degree }}, {{ student.year }})
 {% endfor %}
 
 ## Alumni
