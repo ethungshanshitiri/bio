@@ -5,17 +5,12 @@ permalink: /team/
 author_profile: false
 ---
 
-## Ph.D.
-{% for name in site.data.team.phd %}
+## Current
+{% for name in site.data.team.current %}
 * {{ name }}
 {% endfor %}
 
-## MS
-{% for name in site.data.team.ms %}
-* {{ name }}
-{% endfor %}
-
-## BS
-{% for name in site.data.team.bs %}
-* {{ name }}
+## Alumni
+{% for student in site.data.team.alumni %}
+* {{ student.name }} ({{ student.degree }}, {{ student.year }})
 {% endfor %}
