@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 ## Current
-{% for name in site.data.team.current %}
+{% for student in site.data.team.current %}
 * {{ student.name }} ({{ student.degree }}, {{ student.year }})
 {% endfor %}
 
