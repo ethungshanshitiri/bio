@@ -1,18 +1,19 @@
 ---
 layout: archive
-title: ""
+title: "Team"
 permalink: /team/
 author_profile: false
 ---
 
 <style>
-.archive ul li {
-  margin-bottom: 0.01em !important;
+.archive ul {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
-.archive li ul,
-.archive li ol {
-  margin-top: 0.01em !important;
+.archive ul li {
+  margin-bottom: 0 !important;
+  line-height: 1.2;
 }
 </style>
 
