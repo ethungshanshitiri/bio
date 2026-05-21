@@ -6,8 +6,13 @@ author_profile: false
 ---
 
 <style>
-ul li {
-  margin-bottom: 0.05em;
+.page__content ul li {
+  margin-bottom: 0.1em !important;
+}
+
+.page__content li ul,
+.page__content li ol {
+  margin-top: 0.1em !important;
 }
 </style>
 
