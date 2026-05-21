@@ -3,14 +3,8 @@
 {% for publication in items %}
 <p>
   [{{ include.prefix }}{{ forloop.rindex }}]
-  {% if publication.authors %}{{ publication.authors }}, {% endif %}
-  &ldquo;{{ publication.title }},&rdquo;
-  {% if publication.venue %}<em>{{ publication.venue }}</em>{% endif %}
-  {% if publication.volume %}, vol. {{ publication.volume }}{% endif %}
-  {% if publication.issue %}, no. {{ publication.issue }}{% endif %}
-  {% if publication.pages %}, pp. {{ publication.pages }}{% endif %}
-  {% if publication.year %}, {{ publication.year }}{% endif %}.
-  {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{% endif %}
-  {% if publication.arxiv_id %}{% if publication.doi %} | {% endif %}<a href="{{ publication.arxiv_url | default: publication.url }}">arXiv</a>{% endif %}
+  {% if publication.authors and publication.authors != "" %}{{ publication.authors }}, {% endif %}&ldquo;{{ publication.title }},&rdquo;{% if publication.venue and publication.venue != "" %} <em>{{ publication.venue }}</em>{% endif %}{% if publication.volume and publication.volume != "" %}, vol. {{ publication.volume }}{% endif %}{% if publication.issue and publication.issue != "" %}, no. {{ publication.issue }}{% endif %}{% if publication.pages and publication.pages != "" %}, pp. {{ publication.pages }}{% endif %}{% if publication.year and publication.year != "" %}, {{ publication.year }}{% endif %}.
+  {% if publication.doi and publication.doi != "" %}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{% endif %}
+  {% if publication.arxiv_id and publication.arxiv_id != "" %}{% if publication.doi and publication.doi != "" %} | {% endif %}<a href="{{ publication.arxiv_url | default: publication.url }}">arXiv</a>{% endif %}
 </p>
 {% endfor %}
