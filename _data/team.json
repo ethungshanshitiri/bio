@@ -1,15 +1,31 @@
 {
   "current": [
-    "Abdollah Rezagholi",
+    {
+      "name": "Abdollah Rezagholi",
+      "degree": "Phd",
+      "year": "2026"
+    },
     "Emdadul Hoque Bhuiyan",
-        {
+    {
       "name": "Emdadul Hoque Bhuiyan",
       "degree": "MS (KNU)",
       "year": "2026"
     },
-    "Davide Volpi",
-    "Valentine Ponce",
-    "Mathis Paccoud"
+    {
+      "name": "Davide Volpi",
+      "degree": "MS",
+      "year": "2026"
+    },
+    {
+      "name": "Valentine Ponce",
+      "degree": "Bs",
+      "year": "2026"
+    },
+    {
+      "name": "Mathis Paccoud",
+      "degree": "BS",
+      "year": "2026"
+    }
   ],
   "alumni": [
     {
