@@ -17,12 +17,12 @@ author_profile: false
 }
 </style>
 
-## Current
+**Current**
 {% for student in site.data.team.current %}
 * {{ student.name }} ({{ student.degree }}, {{ student.year }})
 {% endfor %}
 
-## Alumni
+**Alumni**
 {% for student in site.data.team.alumni %}
 * {{ student.name }} ({{ student.degree }}, {{ student.year }})
 {% endfor %}
