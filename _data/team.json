@@ -7,13 +7,18 @@
   ],
   "alumni": [
     {
-      "name": "Tania Islam",
-      "degree": "Ph.D.",
-      "year": "2022"
-    },
-    {
       "name": "Mika Leo Hube",
       "degree": "MS",
+      "year": "2025"
+    },
+    {
+      "name": "Ida Kleger-Rudomin",
+      "degree": "BS",
+      "year": "2025"
+    },
+    {
+      "name": "Hastha K B",
+      "degree": "BS",
       "year": "2025"
     },
     {
@@ -42,19 +47,14 @@
       "year": "2024"
     },
     {
-      "name": "Ida Kleger-Rudomin",
-      "degree": "BS",
-      "year": "2025"
-    },
-    {
-      "name": "Hastha K B",
-      "degree": "BS",
-      "year": "2025"
-    },
-    {
       "name": "Marakala Satvika Santhoshi",
       "degree": "BS",
       "year": "2024"
+    },
+    {
+      "name": "Tania Islam",
+      "degree": "Ph.D.",
+      "year": "2022"
     },
     {
       "name": "Akarsh Yadav",
