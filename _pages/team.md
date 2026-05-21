@@ -7,7 +7,7 @@ author_profile: false
 
 <style>
 ul li {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 </style>
 
