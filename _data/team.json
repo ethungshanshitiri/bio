@@ -7,85 +7,90 @@
     },
     {
       "name": "Emdadul Hoque Bhuiyan",
-      "degree": "MS (KNU)",
-      "year": "2026"
+      "degree": "MS from Kyungpook National Univ.",
+      "year": "Spring 2026"
     },
     {
       "name": "Davide Volpi",
-      "degree": "MS",
-      "year": "2026"
+      "degree": "MS from Università di Padova",
+      "year": "Spring 2026"
     },
     {
       "name": "Valentine Ponce",
-      "degree": "BS",
-      "year": "2026"
+      "degree": "MS from EC Lyon",
+      "year": "Spring 2026"
     },
     {
       "name": "Mathis Paccoud",
-      "degree": "BS",
+      "degree": "MS from Telecom Nancy",
       "year": "2026"
     }
   ],
   "alumni": [
     {
+      "name": "Ida Kleger-Rudomin",
+      "degree": "BS from Gdansk Tech",
+      "year": "Fall 2025"
+    },
+    {
+      "name": "Hastha Balaji",
+      "degree": "BS from Sastra University",
+      "year": "Spring 2025"
+    },
+    {
       "name": "Mika Leo Hube",
       "degree": "MS",
-      "year": "2025"
+      "year": "Fall 2024"
     },
     {
-      "name": "Ida Kleger-Rudomin",
-      "degree": "BS",
-      "year": "2025"
-    },
-    {
-      "name": "Hastha K B",
-      "degree": "BS",
-      "year": "2025"
+      "name": "Ausilia Costa",
+      "degree": "MS from University of Pavia",
+      "year": "Fall 2024"
     },
     {
       "name": "Eneko Ibarlucea Sòria",
       "degree": "MS",
-      "year": "2024"
+      "year": "Spring 2024"
     },
     {
       "name": "Sandra Navarro Pacheco",
       "degree": "MS",
-      "year": "2024"
+      "year": "Spring 2024"
+    },
+    {
+      "name": "Marakala Satvika Santhoshi",
+      "degree": "BS from Sastra University",
+      "year": "Spring 2024"
     },
     {
       "name": "Niklas Moser",
-      "degree": "MS",
-      "year": "2024"
+      "degree": "MS from TU Berlin",
+      "year": "Fall 2023"
     },
     {
       "name": "Joan Cuy",
       "degree": "MS",
-      "year": "2024"
+      "year": "Fall 2023"
     },
     {
       "name": "Eloi Gomez Martínez",
       "degree": "MS",
-      "year": "2024"
-    },
-    {
-      "name": "Ausilia Costa",
-      "degree": "BS",
-      "year": "2024"
-    },
-    {
-      "name": "Marakala Satvika Santhoshi",
-      "degree": "BS",
-      "year": "2024"
+      "year": "Fall 2023"
     },
     {
       "name": "Tania Islam",
-      "degree": "Ph.D.",
+      "degree": "Ph.D. (KNU)",
       "year": "2022"
     },
     {
       "name": "Akarsh Yadav",
-      "degree": "BS",
+      "degree": "BS from IITP (KNU)",
       "year": "2022"
-    }
+    },
+    {
+      "name": "Faisal Ahmed",
+      "degree": "MS (KNU)",
+      "year": "2021"
+    },
   ]
 }
