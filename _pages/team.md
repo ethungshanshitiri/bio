@@ -13,6 +13,7 @@ author_profile: false
 .archive li ul,
 .archive li ol {
   margin-top: 0em !important;
+  line-height: 1;
 }
 </style>
 
