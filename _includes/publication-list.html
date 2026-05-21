@@ -1,0 +1,16 @@
+{% assign items = include.items | sort: "date" | reverse %}
+
+{% for publication in items %}
+<p>
+  [{{ include.prefix }}{{ forloop.rindex }}]
+  {% if publication.authors %}{{ publication.authors }}, {% endif %}
+  &ldquo;{{ publication.title }},&rdquo;
+  {% if publication.venue %}<em>{{ publication.venue }}</em>{% endif %}
+  {% if publication.volume %}, vol. {{ publication.volume }}{% endif %}
+  {% if publication.issue %}, no. {{ publication.issue }}{% endif %}
+  {% if publication.pages %}, pp. {{ publication.pages }}{% endif %}
+  {% if publication.year %}, {{ publication.year }}{% endif %}.
+  {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">DOI</a>{% endif %}
+  {% if publication.arxiv_id %}{% if publication.doi %} | {% endif %}<a href="{{ publication.arxiv_url | default: publication.url }}">arXiv</a>{% endif %}
+</p>
+{% endfor %}
