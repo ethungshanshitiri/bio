@@ -10,7 +10,7 @@
     "url": "http://arxiv.org/abs/2605.22637v1",
     "arxiv_url": "http://arxiv.org/abs/2605.22637v1",
     "type": "preprint",
-    "source": "Manual",
+    "source": "arXiv",
     "section": "preprints"
   },
   {
@@ -24,7 +24,7 @@
     "url": "http://arxiv.org/abs/2603.10709v1",
     "arxiv_url": "http://arxiv.org/abs/2603.10709v1",
     "type": "preprint",
-    "source": "Manual",
+    "source": "arXiv",
     "section": "preprints"
   },
   {
@@ -74,6 +74,23 @@
     "volume": "",
     "issue": "",
     "pages": "134-135"
+  },
+  {
+    "title": "An M-Ary Concentration-Shift Keying With Common Detection Thresholds for Multitransmitter Molecular Communication",
+    "authors": "E. Shitiri, H.S. Cho",
+    "venue": "IEEE Internet of Things Journal",
+    "date": "2024-05-15",
+    "year": "2024",
+    "doi": "10.1109/jiot.2024.3359999",
+    "arxiv_id": "2310.13991v2",
+    "url": "https://doi.org/10.1109/jiot.2024.3359999",
+    "arxiv_url": "http://arxiv.org/abs/2310.13991v2",
+    "type": "journal-article",
+    "source": "Crossref",
+    "section": "journal_articles",
+    "volume": "11",
+    "issue": "10",
+    "pages": "17948-17959"
   },
   {
     "title": "Non-Data-Aided SNR Estimation for Molecular Communication Systems in the Internet of Bio-Nano Things",
