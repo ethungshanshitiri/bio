@@ -1,4 +1,8 @@
-{% assign items = include.items | sort: "date" | reverse %}
+{% if include.prefix == "C" %}
+  {% assign items = include.items | sort: "order" | reverse %}
+{% else %}
+  {% assign items = include.items | sort: "date" | reverse %}
+{% endif %}
 
 {% for publication in items %}
 <p>
