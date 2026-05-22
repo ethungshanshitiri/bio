@@ -6,23 +6,6 @@ author_profile: false
 ---
 
 <style>
-@media (min-width: 64em) {
-  #main {
-    max-width: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  .archive {
-    float: none;
-    width: min(100%, 54rem);
-    margin-left: 0;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 .team-heading {
   margin: 1rem 0 0.25rem;
 }
