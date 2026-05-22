@@ -38,7 +38,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C13"
   },
   {
     "title": "Effects of Detection Threshold on Concentration Shift Keying for Molecular Communications with Multiple Transmitters",
@@ -52,7 +53,8 @@
     "type": "conference-paper",
     "source": "Manual",
     "section": "conference_papers",
-    "note": "Best Paper Award"
+    "note": "Best Paper Award",
+    "label": "C8"
   },
   {
     "title": "On a Reconfigurable Intelligent Surface-aided Relay Network Architecture for Underwater Acoustic Sensor Networks",
@@ -65,7 +67,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C7"
   },
   {
     "title": "A Sequential Drug Release Scheme among Multiple Nanomachines",
@@ -78,7 +81,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C6"
   },
   {
     "title": "Synchronization among Multiple Nanomachines for Simultaneous Targeted Drug Delivery",
@@ -91,7 +95,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C5"
   },
   {
     "title": "Impact of Propagation Delay and Nanomachine Position on the Synchronization Error Ratio",
@@ -104,7 +109,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C4"
   },
   {
     "title": "A low complexity synchronization scheme for nanonetworks",
@@ -117,7 +123,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C3"
   },
   {
     "title": "Synchronization using Excitatory Molecules in Nanonetworks",
@@ -130,7 +137,8 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C2"
   },
   {
     "title": "Molecular Oscillator: A bio-inspired oscillator for Molecular Nanonetworks",
@@ -143,6 +151,105 @@
     "url": "",
     "type": "conference-paper",
     "source": "Manual",
-    "section": "conference_papers"
+    "section": "conference_papers",
+    "label": "C1"
+  },
+  {
+    "title": "Set Transformer Architectures and Synthetic Data Generation for Flow-Guided Nanoscale Localization",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C16"
+  },
+  {
+    "title": "Work-in-Progress: Intra-Body Nanonetworks for In Vivo Biomarker Detection in Capillaries",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C15"
+  },
+  {
+    "title": "Enhanced Drug Delivery via Localization-Enabled Relaying in Molecular Communication Nanonetworks",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C14"
+  },
+  {
+    "title": "Power Control for MACA-based Underwater MAC Protocol: A Q-Learning Approach",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C12"
+  },
+  {
+    "title": "Analysis of Akaike’s Information Criterion for Propagation Delays in a Free-Diffusion Channel",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C11"
+  },
+  {
+    "title": "Achieving in-phase synchronization in a diffusion-based nanonetwork with unknown propagation delay",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C10"
+  },
+  {
+    "title": "An orthogonal coded hybrid MAC protocol with received power based prioritization for M2M networks",
+    "authors": "",
+    "venue": "",
+    "date": "",
+    "year": "",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C9"
   }
 ]
