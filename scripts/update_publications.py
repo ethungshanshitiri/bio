@@ -290,7 +290,7 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def merge_supplement(existing: dict[str, Any], supplement: dict[str, Any]) -> None:
-    for key in ("label", "note"):
+    for key in ("label", "note", "order"):
         if supplement.get(key):
             existing[key] = supplement[key]
     for key in ("authors", "venue", "date", "year"):
