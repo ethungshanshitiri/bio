@@ -216,7 +216,7 @@ def fetch_arxiv_records(author: str) -> list[dict[str, Any]]:
     )
     try:
         text = fetch_text(url)
-    except urllib.error.URLError:
+    except (TimeoutError, urllib.error.URLError):
         return []
 
     root = ET.fromstring(text)
@@ -283,7 +283,18 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(merged, key=lambda item: item.get("date") or "0000-00-00", reverse=True)
 
 
-def update_publications(output: Path, orcid_id: str, arxiv_author: str) -> list[dict[str, Any]]:
+def load_manual_records(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def update_publications(
+    output: Path,
+    orcid_id: str,
+    arxiv_author: str,
+    manual_file: Path,
+) -> list[dict[str, Any]]:
     records = []
     for record in fetch_orcid_records(orcid_id):
         if record.get("doi"):
@@ -295,6 +306,7 @@ def update_publications(output: Path, orcid_id: str, arxiv_author: str) -> list[
             time.sleep(0.25)
             record = enrich_with_crossref(record)
         records.append(record)
+    records.extend(load_manual_records(manual_file))
     records = merge_records(records)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -306,9 +318,15 @@ def main() -> None:
     parser.add_argument("--output", default="_data/publications.json")
     parser.add_argument("--orcid", default=ORCID_ID)
     parser.add_argument("--arxiv-author", default=ARXIV_AUTHOR)
+    parser.add_argument("--manual-file", default="_data/publications_manual.json")
     args = parser.parse_args()
 
-    records = update_publications(Path(args.output), args.orcid, args.arxiv_author)
+    records = update_publications(
+        Path(args.output),
+        args.orcid,
+        args.arxiv_author,
+        Path(args.manual_file),
+    )
     print(f"Updated {len(records)} publication records in {args.output}")
 
 
