@@ -42,8 +42,8 @@
     "volume": "",
     "issue": "",
     "pages": "34-39",
-    "label": "C16",
-    "order": 16
+    "label": "C17",
+    "order": 17
   },
   {
     "title": "Enhanced Drug Delivery via Localization-Enabled Relaying in Molecular Communication Nanonetworks",
@@ -60,8 +60,8 @@
     "volume": "",
     "issue": "",
     "pages": "21-27",
-    "label": "C14",
-    "order": 14
+    "label": "C15",
+    "order": 15
   },
   {
     "title": "Work-in-Progress: Intra-Body Nanonetworks for In Vivo Biomarker Detection in Capillaries",
@@ -78,8 +78,8 @@
     "volume": "",
     "issue": "",
     "pages": "134-135",
-    "label": "C15",
-    "order": 15
+    "label": "C16",
+    "order": 16
   },
   {
     "title": "An M-Ary Concentration-Shift Keying With Common Detection Thresholds for Multitransmitter Molecular Communication",
@@ -97,6 +97,21 @@
     "volume": "11",
     "issue": "10",
     "pages": "17948-17959"
+  },
+  {
+    "title": "Liquid Biopsy Using Intra-Body Nanonetworks: Perspective and Approach",
+    "authors": "N. Moser, E. Gómez, S. Abadal, E. Alarcón, F. Lemic, E. Shitiri",
+    "venue": "8th Workshop on Molecular Communications, Oslo, Norway",
+    "date": "2024-04-01",
+    "year": "2024",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "https://molecularcommunications.org/wp-content/uploads/2024/04/LB_IBN_Pers_Approach_CameraReady.pdf",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C14",
+    "order": 14
   },
   {
     "title": "Non-Data-Aided SNR Estimation for Molecular Communication Systems in the Internet of Bio-Nano Things",
