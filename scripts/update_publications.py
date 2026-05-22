@@ -265,22 +265,37 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     merged = []
     seen_dois: set[str] = set()
     seen_titles: set[str] = set()
+    by_doi: dict[str, dict[str, Any]] = {}
+    by_title: dict[str, dict[str, Any]] = {}
 
     for record in records:
         record = finalize_record(record)
         title_key = normalize_title(record.get("title"))
         doi_key = normalize_doi(record.get("doi"))
         if doi_key and doi_key in seen_dois:
+            merge_supplement(by_doi[doi_key], record)
             continue
         if title_key and title_key in seen_titles:
+            merge_supplement(by_title[title_key], record)
             continue
         if doi_key:
             seen_dois.add(doi_key)
+            by_doi[doi_key] = record
         if title_key:
             seen_titles.add(title_key)
+            by_title[title_key] = record
         merged.append(record)
 
     return sorted(merged, key=lambda item: item.get("date") or "0000-00-00", reverse=True)
+
+
+def merge_supplement(existing: dict[str, Any], supplement: dict[str, Any]) -> None:
+    for key in ("label", "note"):
+        if supplement.get(key):
+            existing[key] = supplement[key]
+    for key in ("authors", "venue", "date", "year"):
+        if not existing.get(key) and supplement.get(key):
+            existing[key] = supplement[key]
 
 
 def load_manual_records(path: Path) -> list[dict[str, Any]]:
