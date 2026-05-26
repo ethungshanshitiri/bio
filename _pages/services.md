@@ -5,6 +5,8 @@ permalink: /services/
 author_profile: false
 ---
 
+<div class="service-list" markdown="1">
+
 ## Editorial and Workshop Organization
 
 * Research Topic Editor, Frontiers in Communications and Networks.
@@ -42,3 +44,5 @@ author_profile: false
 * IEEE Communications Society, since 2016.
 * Institute of Electrical and Electronics Engineers, since 2016.
 * Korean Institute of Communications and Information Sciences, since 2015.
+
+</div>
