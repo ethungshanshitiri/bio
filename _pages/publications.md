@@ -17,22 +17,22 @@ You can also find my research on [Google Scholar](https://scholar.google.co.kr/c
 {% assign other_publications = publications | where: "section", "other" %}
 
 {% if journal_articles.size > 0 %}
-**Journal Articles**
+### Journal Articles
 {% include publication-list.html items=journal_articles prefix="J" %}
 {% endif %}
 
-{% if book_chapters.size > 0 %}
-**Book Chapters**
-{% include publication-list.html items=book_chapters prefix="B" %}
-{% endif %}
-
 {% if conference_papers.size > 0 %}
-**Conference Papers**
+#### Conference Papers
 {% include publication-list.html items=conference_papers prefix="C" %}
 {% endif %}
 
+{% if book_chapters.size > 0 %}
+#### Book Chapters
+{% include publication-list.html items=book_chapters prefix="B" %}
+{% endif %}
+
 {% if preprints.size > 0 %}
-**Preprints**
+#### Preprints
 {% include publication-list.html items=preprints prefix="P" %}
 {% endif %}
 
