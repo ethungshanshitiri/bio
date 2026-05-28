@@ -330,10 +330,10 @@
     }
 
     .visible-links {
-      padding-right: 8.25rem;
+      padding-right: 7rem;
 
       .masthead__menu-item--lg {
-        max-width: calc(100vw - 8.75rem);
+        max-width: calc(100vw - 7.5rem);
         overflow: hidden;
 
         a {
@@ -345,7 +345,7 @@
       #theme-toggle {
         position: absolute;
         top: 0;
-        right: 4.75rem;
+        right: 3.75rem;
         height: 2.5rem;
         z-index: 110;
 
