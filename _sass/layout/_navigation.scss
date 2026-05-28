@@ -324,16 +324,16 @@
     min-width: 0;
 
     button {
-      right: 0;
-      width: 2.75rem;
+      right: 0.25rem;
+      width: 3rem;
       padding: 0 0.45rem;
     }
 
     .visible-links {
-      padding-right: 5.75rem;
+      padding-right: 8.25rem;
 
       .masthead__menu-item--lg {
-        max-width: calc(100vw - 6.75rem);
+        max-width: calc(100vw - 8.75rem);
         overflow: hidden;
 
         a {
@@ -345,7 +345,7 @@
       #theme-toggle {
         position: absolute;
         top: 0;
-        right: 3rem;
+        right: 4.75rem;
         height: 2.5rem;
         z-index: 110;
 
