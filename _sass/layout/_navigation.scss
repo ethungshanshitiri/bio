@@ -319,6 +319,48 @@
   }
 }
 
+@media (max-width: 600px) {
+  .greedy-nav {
+    min-width: 0;
+
+    button {
+      right: 0;
+      width: 2.75rem;
+      padding: 0 0.45rem;
+    }
+
+    .visible-links {
+      padding-right: 5.75rem;
+
+      .masthead__menu-item--lg {
+        max-width: calc(100vw - 6.75rem);
+        overflow: hidden;
+
+        a {
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      #theme-toggle {
+        position: absolute;
+        top: 0;
+        right: 3rem;
+        height: 2.5rem;
+        z-index: 110;
+
+        a {
+          width: 2.5rem;
+          height: 2.5rem;
+          margin: 0;
+          padding: 0.5rem;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
 
 /*
    Navigation list
