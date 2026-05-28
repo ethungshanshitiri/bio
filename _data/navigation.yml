@@ -15,14 +15,14 @@ main:
   - title: "Projects"
     url: /projects/    
 
-  - title: "Services"
-    url: /services/
-
   - title: "Team"
     url: /team/
     
   - title: "Publications"
     url: /publications/
+    
+  - title: "Services"
+    url: /services/
 
   - title: "Contact"
     url: /contact/
