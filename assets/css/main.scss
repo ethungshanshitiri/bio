@@ -58,13 +58,7 @@
   color: #000 !important;
 }
 
-@media (max-width: 600px) {
-  .masthead__menu-item--lg a {
-    font-size: 16px !important;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
-  }
-}
+
 
 @media (min-width: 925px) {
   #main:not(.has-sidebar) {
