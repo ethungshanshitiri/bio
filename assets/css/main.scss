@@ -57,3 +57,34 @@
 .masthead__menu-item--lg.selected a {
   color: #000 !important;
 }
+
+@media (min-width: 925px) {
+  #main:not(.has-sidebar) {
+    max-width: 925px;
+  }
+
+  #main:not(.has-sidebar) > .archive,
+  #main:not(.has-sidebar) > .page {
+    float: none !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #main.has-sidebar > .archive {
+    width: 83.0508474576%;
+    float: right;
+    margin-right: 0;
+    padding-left: 4.2372881356%;
+  }
+
+  #main.has-sidebar > .page {
+    width: 83.0508474576%;
+    float: right;
+    margin-right: 0;
+    padding-left: 4.2372881356%;
+    padding-right: 16.9491525424%;
+  }
+}
