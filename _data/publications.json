@@ -2,7 +2,7 @@
   {
     "title": "Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks",
     "authors": "Ida Kleger-Rudomin, Filip Lemic, Sergi Abadal, Eduard Alarcon, Ethungshan Shitiri",
-    "venue": "arXiv",
+   "venue": "Accepted: 13th Annual ACM International Conference on Nanoscale Computing and Communication",
     "date": "2026-05-21",
     "year": "2026",
     "doi": "",
@@ -11,7 +11,9 @@
     "arxiv_url": "http://arxiv.org/abs/2605.22637v1",
     "type": "preprint",
     "source": "arXiv",
-    "section": "preprints"
+    "section": "conference_papers"
+    "label": "C18",
+    "order": 18
   },
   {
     "title": "Early-Stage Cancer Biomarker Detection via Intravascular Nanomachines: Modeling and Analysis",
