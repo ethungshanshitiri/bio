@@ -18,7 +18,7 @@
   {
     "title": "Early-Stage Cancer Biomarker Detection via Intravascular Nanomachines: Modeling and Analysis",
     "authors": "Abdollah Rezagholi, Sergi Abadal, Filip Lemic, Eduard Alarcon, Ethungshan Shitiri",
-    "venue": "arXiv",
+    "venue": "Accepted: IEEE TMBMC",
     "date": "2026-03-11",
     "year": "2026",
     "doi": "",
@@ -27,7 +27,9 @@
     "arxiv_url": "http://arxiv.org/abs/2603.10709v1",
     "type": "preprint",
     "source": "Manual",
-    "section": "preprints"
+    "section": "journal"
+    "label": "J15",
+    "order": 15
   },
   {
     "title": "Reinforcement Learning-Based MAC for Reconfigurable Intelligent Surface-Assisted Wireless Sensor Networks",
