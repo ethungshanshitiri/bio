@@ -2,7 +2,7 @@
   {
     "title": "Early-Stage Cancer Biomarker Detection via Intravascular Nanomachines: Modeling and Analysis",
     "authors": "Abdollah Rezagholi, Sergi Abadal, Filip Lemic, Eduard Alarcon, Ethungshan Shitiri",
-    "venue": "IEEE TMBMC",
+    "venue": "Accepted: IEEE TMBMC",
     "date": "2026-01-01",
     "year": "2026",
     "doi": "10.48550/arxiv.2603.10709",
@@ -10,7 +10,10 @@
     "url": "https://arxiv.org/abs/2603.10709",
     "type": "preprint",
     "source": "ORCID",
-    "section": "other"
+    "section": "journal"
+    "label": "J15",
+    "order": 15
+    
   },
   {
     "title": "Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks",
