@@ -28,8 +28,6 @@
     "type": "preprint",
     "source": "Manual",
     "section": "journal_articles"
-    "label": "J15",
-    "order": 15
   },
   {
     "title": "Reinforcement Learning-Based MAC for Reconfigurable Intelligent Surface-Assisted Wireless Sensor Networks",
