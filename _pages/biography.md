@@ -15,8 +15,6 @@ He was a recipient of the Marie Skłodowska-Curie Actions Postdoctoral Fellowshi
 
 He has authored or coauthored more than 25 scientific publications and has secured more than €0.5 million in competitive national and international research funding. His distinctions include the 2024 Marie Skłodowska-Curie Actions Postdoctoral Fellowship, the 2021 Best Paper Award at the KICS Fall Conference, the 2018 Outstanding Thesis Award from Kyungpook National University, the 2016 KNU-Qualcomm Paper Innovation Award, and the 2014 KNU Honors Scholarship.
 
-
-
 **Short bio:**
 **Ethungshan Shitiri** received the B.S. and M.S. degrees in electronics and communication engineering in 2010 and 2013, respectively, and the Ph.D. degree in electronics engineering from Kyungpook National University, South Korea, in 2018. He is currently a Group Leader with the [NaNoNetworking Center at Catalunya](https://n3cat.upc.edu/), Universitat Politècnica de Catalunya, Barcelona, Spain. He was a recipient of the Marie Skłodowska-Curie Actions Postdoctoral Fellowship for the [BeNiFIt project](https://ethungshanshitiri.github.io/benifit/). Prior to joining UPC, he held postdoctoral research positions at the IDEC Center and the Electronics and Electrical Engineering Advancement Institute at Kyungpook National University. In 2025, he was a Visiting Scholar at the Intervention Center, Oslo University Hospital. His current research focuses on intrabody nanonetworks, biomarker sensing for in vivo diagnostics, and in-to-on-body communication systems. He has authored or coauthored more than 25 publications and has received several research distinctions, including the KNU Outstanding Thesis Award.
 
