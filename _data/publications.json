@@ -31,6 +31,22 @@
     "section": "other"
   },
   {
+    "title": "Early-Stage Disease Detection via Intravascular Nanomachines: Modeling and Analysis",
+    "authors": "A. Rezagholi, S. Abadal, F. Lemic, E. Alarcon, E. Shitiri",
+    "venue": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
+    "date": "2026-01-01",
+    "year": "2026",
+    "doi": "10.1109/tmbmc.2026.3732983",
+    "arxiv_id": "",
+    "url": "https://doi.org/10.1109/tmbmc.2026.3732983",
+    "type": "journal-article",
+    "source": "Crossref",
+    "section": "journal_articles",
+    "volume": "12",
+    "issue": "",
+    "pages": "1010-1018"
+  },
+  {
     "title": "Set Transformer Architectures and Synthetic Data Generation for Flow-Guided Nanoscale Localization",
     "authors": "M.L. Hube, F. Lemic, E. Shitiri, G.C. Bartra, S. Abadal, X.C. Pérez",
     "venue": "Proceedings of the 12th Annual ACM International Conference on Nanoscale Computing and Communication",
