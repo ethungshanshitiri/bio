@@ -1,5 +1,21 @@
 [
   {
+    "title": "Reliable Medical Condition Detection from Noisy Location-aware Multimodal Cardiovascular IoBNT Telemetry",
+    "authors": "D. Volpi, F. Lemic, G. Encinas-Lago, Ethungshan Shitiri, S. Abadal, E. Alarcón, X. Costa-Pérez",
+    "venue": "34th ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL)",
+    "date": "2026",
+    "year": "2026",
+    "doi": "",
+    "arxiv_id": "",
+    "url": "",
+    "type": "conference-paper",
+    "source": "Manual",
+    "section": "conference_papers",
+    "label": "C19",
+    "order": 19,
+    "note": "Accepted"
+  },
+  {
     "title": "Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks",
     "authors": "Ida Kleger-Rudomin, Filip Lemic, Sergi Abadal, Eduard Alarcon, Ethungshan Shitiri",
     "venue": "Accepted: ACM NanoCom 2026",
@@ -16,18 +32,44 @@
     "order": 18
   },
   {
-    "title": "Early-Stage Cancer Biomarker Detection via Intravascular Nanomachines: Modeling and Analysis",
-    "authors": "Abdollah Rezagholi, Sergi Abadal, Filip Lemic, Eduard Alarcon, Ethungshan Shitiri",
-    "venue": "Accepted: IEEE TMBMC",
-    "date": "2026-03-11",
-    "year": "2026",
-    "doi": "",
-    "arxiv_id": "2603.10709v1",
-    "url": "http://arxiv.org/abs/2603.10709v1",
-    "arxiv_url": "http://arxiv.org/abs/2603.10709v1",
-    "type": "preprint",
+    "title": "Non-Data-Aided SNR Estimation for Molecular Communication Systems in Internet of Bio-Nano Things",
+    "authors": "A. Yadav, A. Kumar, Ethungshan Shitiri, S. Kumar, H.-S. Cho",
+    "venue": "IEEE Internet of Things Journal",
+    "date": "2025-01-01",
+    "year": "2025",
+    "doi": "10.1109/JIOT.2024.3465495",
+    "arxiv_id": "",
+    "url": "https://doi.org/10.1109/JIOT.2024.3465495",
+    "type": "journal-article",
     "source": "Manual",
-    "section": "journal_articles"
+    "section": "journal_articles",
+    "volume": "12",
+    "issue": "1",
+    "pages": "595-604",
+    "override": true,
+    "doi_label": "Published article"
+  },
+  {
+    "title": "Early-Stage Disease Detection via Intravascular Nanomachines: Modeling and Analysis",
+    "authors": "A. Rezagholi, S. Abadal, F. Lemic, E. Alarcón, Ethungshan Shitiri",
+    "venue": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
+    "date": "2026-09-11",
+    "year": "2026",
+    "doi": "10.1109/TMBMC.2026.3732983",
+    "arxiv_id": "2603.10709",
+    "url": "https://doi.org/10.1109/TMBMC.2026.3732983",
+    "arxiv_url": "https://arxiv.org/abs/2603.10709",
+    "type": "journal-article",
+    "source": "Manual",
+    "section": "journal_articles",
+    "volume": "12",
+    "pages": "1010-1018",
+    "override": true,
+    "replaces_titles": [
+      "Early-Stage Cancer Biomarker Detection via Intravascular Nanomachines: Modeling and Analysis"
+    ],
+    "doi_label": "Published article",
+    "arxiv_label": "Earlier preprint"
   },
   {
     "title": "Reinforcement Learning-Based MAC for Reconfigurable Intelligent Surface-Assisted Wireless Sensor Networks",

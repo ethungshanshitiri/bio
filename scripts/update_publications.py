@@ -263,6 +263,12 @@ def finalize_record(record: dict[str, Any]) -> dict[str, Any]:
 
 def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     merged = []
+    # Explicitly link earlier titles to their published citation.
+    replaced_titles = {
+        normalize_title(title)
+        for record in records if record.get("override")
+        for title in record.get("replaces_titles", [])
+    }
     seen_dois: set[str] = set()
     seen_titles: set[str] = set()
     by_doi: dict[str, dict[str, Any]] = {}
@@ -271,6 +277,8 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for record in records:
         record = finalize_record(record)
         title_key = normalize_title(record.get("title"))
+        if title_key in replaced_titles:
+            continue
         doi_key = normalize_doi(record.get("doi"))
         if doi_key and doi_key in seen_dois:
             merge_supplement(by_doi[doi_key], record)
@@ -290,6 +298,12 @@ def merge_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def merge_supplement(existing: dict[str, Any], supplement: dict[str, Any]) -> None:
+    if supplement.get("override"):
+        # Verified manual citations take priority over incomplete import metadata.
+        for key, value in supplement.items():
+            if key not in {"override", "replaces_titles"} and value not in ("", None):
+                existing[key] = value
+        return
     for key in ("label", "note", "order"):
         if supplement.get(key):
             existing[key] = supplement[key]

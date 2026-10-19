@@ -20,6 +20,10 @@ author_profile: false
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
 
 ## News
+* **[2026]** I will serve as General Chair of the [11th Workshop on Molecular Communications](https://molecularcommunications.org/), taking place at UPC, Barcelona, on 14–16 April 2027.
+* **[2026]** Our paper led by Davide Volpi, “Reliable Medical Condition Detection from Noisy Location-aware Multimodal Cardiovascular IoBNT Telemetry,” has been accepted at ACM SIGSPATIAL 2026.
+* **[September 2026]** Our paper led by Abdollah Rezagholi, “Early-Stage Disease Detection via Intravascular Nanomachines: Modeling and Analysis,” has been accepted for publication in IEEE Transactions on Molecular, Biological, and Multi-Scale Communications.
+* **[May 2026]** Our paper led by Ida Kleger-Rudomin, “Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks,” has been accepted at ACM NANOCOM 2026.
 * **[April 2026]** Joined CoRe 5G as Work Package Leader.
-* **[April 2024]** Awarded the EU Marie Curie Fellowship for the BeNiFIt Project at UPC Barcelona.
-* **[April 2021]** Best Paper Award 
+* **[April 2024]** Awarded the EU Marie Skłodowska-Curie Actions Postdoctoral Fellowship for the BeNiFIt project at UPC Barcelona.
+* **[2021]** Received the Best Paper Award at the KICS Fall Conference, South Korea.

@@ -21,10 +21,19 @@ author_profile: false
 }
 </style>
 
+<p class="services-heading"><strong>Invited Talks</strong></p>
+<ul class="services-list">
+  <li><strong>2026 · IEEE Ecuador Chapters</strong><br>“Intrabody Nanonetworks for Advancing Health Care.” International Forum IEEE Medical Applications of Biological Nanocommunications and Nanotechnology, organized by the IEEE NTC, EMBS, ComSoc, CIS, and WICE Ecuador Chapters.</li>
+  <li><strong>2025 · Symbiosis Institute of Technology, India</strong><br>“Intrabody NanoNetworks Enabling Early Detection of Chronic Diseases.”</li>
+  <li><strong>2022 · IEEE Sensors, USA</strong><br>“A TDMA-Based Data Gathering Protocol for Molecular Communication via Diffusion-Based Nano-Sensor Networks.”</li>
+  <li><strong>2022 · Patkai Christian College, India</strong><br>“Making One’s Education Count: Re-Searching.”</li>
+</ul>
+
 <p class="services-heading"><strong>Editorial and Workshop Organization</strong></p>
 <ul class="services-list">
+  <li>General Chair, 11th Workshop on Molecular Communications, UPC, Barcelona, Spain, 2027.</li>
+  <li>Publicity Chair, 10th Workshop on Molecular Communications, Boğaziçi University, Istanbul, Turkey, 2026.</li>
   <li>Research Topic Editor, Frontiers in Communications and Networks.</li>
-  <li>11th Workshop on Molecular Communications 2027, UPC, Barcelona, Spain.</li>
 </ul>
 
 <p class="services-heading"><strong>Journal Peer Reviewing</strong></p>
@@ -36,6 +45,7 @@ author_profile: false
   <li>IEEE Transactions on Molecular, Biological, and Multi-Scale Communications.</li>
   <li>IEEE Transactions on NanoBioscience.</li>
   <li>IEEE Transactions on Communications.</li>
+  <li>Scientific Reports.</li>
   <li>Elsevier Biomedical Signal Processing and Control.</li>
   <li>Elsevier Nano Communication Networks.</li>
   <li>Elsevier Physical Communication.</li>
@@ -46,7 +56,7 @@ author_profile: false
 <p class="services-heading"><strong>Technical Program Committee Membership</strong></p>
 <ul class="services-list">
   <li>Workshop on Molecular Communications 2018, 2024, 2025, 2026.</li>
-  <li>IEEE Sensors 2023, 2024.</li>
+  <li>IEEE Sensors 2023, 2024, 2026.</li>
   <li>IEEE GlobeCom 2023, 2024, 2026.</li>
   <li>IEEE ICC 2024, 2025, 2026.</li>
   <li>BalkanCom 2024, 2025, 2026.</li>

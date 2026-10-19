@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Check publication merge rules
+        run: python -B -m unittest discover -s .github/tests -v
+
       - name: Refresh publication data
         run: python scripts/update_publications.py
 
