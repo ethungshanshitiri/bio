@@ -25,14 +25,14 @@ author_profile: false
 <ul class="services-list">
   <li><strong>2026 · IEEE Ecuador Chapters</strong><br>“Intrabody Nanonetworks for Advancing Health Care.” International Forum IEEE Medical Applications of Biological Nanocommunications and Nanotechnology, organized by the IEEE NTC, EMBS, ComSoc, CIS, and WICE Ecuador Chapters.</li>
   <li><strong>2025 · Symbiosis Institute of Technology, India</strong><br>“Intrabody NanoNetworks Enabling Early Detection of Chronic Diseases.”</li>
-  <li><strong>2022 · IEEE Sensors, USA</strong><br>“A TDMA-Based Data Gathering Protocol for Molecular Communication via Diffusion-Based Nano-Sensor Networks.”</li>
+  <li><strong>2022 · <a href="https://archive.ieee-sensors.org/conferences/sensors/2022/invited-journal-papers/">IEEE Sensors</a>, USA</strong><br>“A TDMA-Based Data Gathering Protocol for Molecular Communication via Diffusion-Based Nano-Sensor Networks.”</li>
   <li><strong>2022 · Patkai Christian College, India</strong><br>“Making One’s Education Count: Re-Searching.”</li>
 </ul>
 
 <p class="services-heading"><strong>Editorial and Workshop Organization</strong></p>
 <ul class="services-list">
-  <li>General Chair, 11th Workshop on Molecular Communications, UPC, Barcelona, Spain, 2027.</li>
-  <li>Publicity Chair, 10th Workshop on Molecular Communications, Boğaziçi University, Istanbul, Turkey, 2026.</li>
+  <li>General Chair, <a href="https://molecularcommunications.org/organizing-committee/">11th Workshop on Molecular Communications</a>, UPC, Barcelona, Spain, 2027.</li>
+  <li>Publicity Chair, <a href="https://molecularcommunications.org/molcom2026/committee/">10th Workshop on Molecular Communications</a>, Boğaziçi University, Istanbul, Turkey, 2026.</li>
   <li>Research Topic Editor, Frontiers in Communications and Networks.</li>
 </ul>
 
