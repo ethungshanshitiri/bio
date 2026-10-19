@@ -25,5 +25,6 @@ author_profile: false
 * **[August 2026]** Our paper led by Davide Volpi, “[Reliable Medical Condition Detection from Noisy Location-aware Multimodal Cardiovascular IoBNT Telemetry](https://i2cat.net/publication/reliable-medical-condition-detection-from-noisy-location-aware-multimodal-cardiovascular-iobnt-telemetry/),” has been accepted at ACM SIGSPATIAL 2026.
 * **[May 2026]** Our paper led by Ida Kleger-Rudomin, “[Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks](https://doi.org/10.1145/3818305.3830255),” has been accepted at ACM NANOCOM 2026.
 * **[April 2026]** Joined [CoRe 5G]({{ '/projects/#core-5g' | relative_url }}) as Work Package Leader.
+* **[April 2025]** Began a 3-month research secondment at the [Intervention Centre, Oslo University Hospital](https://www.ous-research.no/balasingham/), Norway, working with Prof. Ilangko Balasingham’s group as part of the BeNiFIt Marie Skłodowska-Curie fellowship.
 * **[April 2024]** Awarded the EU Marie Skłodowska-Curie Actions Postdoctoral Fellowship for the [BeNiFIt project]({{ '/projects/#benifit' | relative_url }}) at UPC Barcelona.
 * **[2021]** Received the Best Paper Award at the KICS Fall Conference, South Korea.
