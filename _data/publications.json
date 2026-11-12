@@ -1,7 +1,7 @@
 [
   {
     "title": "Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks",
-    "authors": "I. Kleger-Rudomin, F. Lemic, S. Abadal, E. Alarcon, E. Shitiri",
+    "authors": "I. Kleger-Rudomin, F. Lemic, S. Abadal, E. Alarcón, E. Shitiri",
     "venue": "Proceedings of the 13th Annual ACM International Conference on Nanoscale Computing and Communication",
     "date": "2026-09-21",
     "year": "2026",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Early-Stage Disease Detection via Intravascular Nanomachines: Modeling and Analysis",
-    "authors": "A. Rezagholi, S. Abadal, F. Lemic, E. Alarcón, Ethungshan Shitiri",
+    "authors": "A. Rezagholi, S. Abadal, F. Lemic, E. Alarcón, E. Shitiri",
     "venue": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
     "date": "2026-09-11",
     "year": "2026",
@@ -33,12 +33,12 @@
     "issue": "",
     "pages": "1010-1018",
     "arxiv_url": "https://arxiv.org/abs/2603.10709",
-    "doi_label": "Published article",
+    "doi_label": "DOI",
     "arxiv_label": "Earlier preprint"
   },
   {
     "title": "Reliable Medical Condition Detection from Noisy Location-aware Multimodal Cardiovascular IoBNT Telemetry",
-    "authors": "D. Volpi, F. Lemic, G. Encinas-Lago, Ethungshan Shitiri, S. Abadal, E. Alarcón, X. Costa-Pérez",
+    "authors": "D. Volpi, F. Lemic, G. Encinas-Lago, E. Shitiri, S. Abadal, E. Alarcón, X. Costa-Pérez",
     "venue": "34th ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL)",
     "date": "2026",
     "year": "2026",
@@ -72,7 +72,7 @@
   },
   {
     "title": "Non-Data-Aided SNR Estimation for Molecular Communication Systems in Internet of Bio-Nano Things",
-    "authors": "A. Yadav, A. Kumar, Ethungshan Shitiri, S. Kumar, H.-S. Cho",
+    "authors": "A. Yadav, A. Kumar, E. Shitiri, S. Kumar, H.-S. Cho",
     "venue": "IEEE Internet of Things Journal",
     "date": "2025-01-01",
     "year": "2025",
@@ -85,11 +85,11 @@
     "volume": "12",
     "issue": "1",
     "pages": "595-604",
-    "doi_label": "Published article"
+    "doi_label": "DOI"
   },
   {
     "title": "Enhanced Drug Delivery via Localization-Enabled Relaying in Molecular Communication Nanonetworks",
-    "authors": "E. Shitiri, A. Yadav, S. Abadal, E. Alarcón, H.S. Cho",
+    "authors": "E. Shitiri, A. Yadav, S. Abadal, E. Alarcón, H.-S. Cho",
     "venue": "Proceedings of the 11th Annual ACM International Conference on Nanoscale Computing and Communication",
     "date": "2024-10-28",
     "year": "2024",
@@ -125,7 +125,7 @@
   },
   {
     "title": "An M -Ary Concentration-Shift Keying With Common Detection Thresholds for Multitransmitter Molecular Communication",
-    "authors": "E. Shitiri, H.S. Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "IEEE Internet of Things Journal",
     "date": "2024-05-15",
     "year": "2024",
@@ -156,7 +156,7 @@
   },
   {
     "title": "AUV-Aided Isolated Sub-Network Prevention for Underwater Wireless Sensor Networks",
-    "authors": "C.S. Nandyala, E. Shitiri, H.S. Cho",
+    "authors": "C.S. Nandyala, E. Shitiri, H.-S. Cho",
     "venue": "2023 Fourteenth International Conference on Ubiquitous and Future Networks (ICUFN)",
     "date": "2023-07-04",
     "year": "2023",
@@ -172,7 +172,7 @@
   },
   {
     "title": "Reinforcement Learning-based MAC for Reconfigurable Intelligent Surface-Assisted Wireless Sensor Networks",
-    "authors": "F. Ahmed, E. Shitiri, H.S. Cho",
+    "authors": "F. Ahmed, E. Shitiri, H.-S. Cho",
     "venue": "2022 Thirteenth International Conference on Ubiquitous and Future Networks (ICUFN)",
     "date": "2022-07-05",
     "year": "2022",
@@ -190,7 +190,7 @@
   },
   {
     "title": "In-Body Sequential Multidrug Delivery Scheme Using Molecular Communication",
-    "authors": "T. Islam, E. Shitiri, H.S. Cho",
+    "authors": "T. Islam, E. Shitiri, H.-S. Cho",
     "venue": "IEEE Access",
     "date": "2022-01-01",
     "year": "2022",
@@ -206,7 +206,7 @@
   },
   {
     "title": "Reinforcement Learning-Based Power Control for MACA-Based Underwater MAC Protocol",
-    "authors": "F. Ahmed, J. Cho, E. Shitiri, H.S. Cho",
+    "authors": "F. Ahmed, J. Cho, E. Shitiri, H.-S. Cho",
     "venue": "IEEE Access",
     "date": "2022-01-01",
     "year": "2022",
@@ -222,7 +222,7 @@
   },
   {
     "title": "Probability Distribution of a Signal’s Peak Time in a Molecular Diffusive Media",
-    "authors": "E. Shitiri, H.B. Yilmaz, H.S. Cho",
+    "authors": "E. Shitiri, H.B. Yilmaz, H.-S. Cho",
     "venue": "IEEE Communications Letters",
     "date": "2021-12-01",
     "year": "2021",
@@ -238,7 +238,7 @@
   },
   {
     "title": "Effects of Detection Threshold on Concentration Shift Keying for Molecular Communications with Multiple Transmitters",
-    "authors": "Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "KICS Fall Conference, South Korea",
     "date": "2021-11-01",
     "year": "2021",
@@ -254,7 +254,7 @@
   },
   {
     "title": "On a Reconfigurable Intelligent Surface-aided Relay Network Architecture for Underwater Acoustic Sensor Networks",
-    "authors": "Faisal Ahmed, Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "F. Ahmed, E. Shitiri, H.-S. Cho",
     "venue": "KICS Fall Conference, South Korea",
     "date": "2021-11-01",
     "year": "2021",
@@ -269,7 +269,7 @@
   },
   {
     "title": "A Sequential Drug Release Scheme among Multiple Nanomachines",
-    "authors": "Tania Islam, Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "T. Islam, E. Shitiri, H.-S. Cho",
     "venue": "KICS Fall Conference, South Korea",
     "date": "2021-11-01",
     "year": "2021",
@@ -284,7 +284,7 @@
   },
   {
     "title": "A TDMA-Based Data Gathering Protocol for Molecular Communication via Diffusion-Based Nano-Sensor Networks",
-    "authors": "E. Shitiri, H.S. Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "IEEE Sensors Journal",
     "date": "2021-09-01",
     "year": "2021",
@@ -300,7 +300,7 @@
   },
   {
     "title": "Power Control for MACA-based Underwater MAC Protocol: A Q-Learning Approach",
-    "authors": "J. Cho, F. Ahmed, E. Shitiri, H.S. Cho",
+    "authors": "J. Cho, F. Ahmed, E. Shitiri, H.-S. Cho",
     "venue": "2021 IEEE Region 10 Symposium (TENSYMP)",
     "date": "2021-08-23",
     "year": "2021",
@@ -318,7 +318,7 @@
   },
   {
     "title": "Timing Alignment in Molecular-Communication-Based Nanonetworks",
-    "authors": "E. Shitiri, H.S. Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "IEEE Communications Magazine",
     "date": "2021-05-01",
     "year": "2021",
@@ -334,7 +334,7 @@
   },
   {
     "title": "A Molecular Communication-Based Simultaneous Targeted-Drug Delivery Scheme",
-    "authors": "T. Islam, E. Shitiri, H.S. Cho",
+    "authors": "T. Islam, E. Shitiri, H.-S. Cho",
     "venue": "IEEE Access",
     "date": "2021-01-01",
     "year": "2021",
@@ -350,7 +350,7 @@
   },
   {
     "title": "A Simultaneous Drug Release Scheme for Targeted Drug Delivery Using Molecular Communications",
-    "authors": "T. Islam, E. Shitiri, H.S. Cho",
+    "authors": "T. Islam, E. Shitiri, H.-S. Cho",
     "venue": "IEEE Access",
     "date": "2020-01-01",
     "year": "2020",
@@ -366,7 +366,7 @@
   },
   {
     "title": "Synchronization for Molecular Communications and Nanonetworking",
-    "authors": "E. Shitiri, H.S. Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "Nanoscale Networking and Communications Handbook",
     "date": "2019-07-05",
     "year": "2019",
@@ -397,7 +397,7 @@
   },
   {
     "title": "Synchronization among Multiple Nanomachines for Simultaneous Targeted Drug Delivery",
-    "authors": "Tania Islam, Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "T. Islam, E. Shitiri, H.-S. Cho",
     "venue": "KICS Winter Conference, Jeongseon, South Korea",
     "date": "2019-02-01",
     "year": "2019",
@@ -412,7 +412,7 @@
   },
   {
     "title": "A Time-Slotted Molecular Communication (TS-MOC): Framework and Time-Slot Errors",
-    "authors": "E. Shitiri, H.B. Yilmaz, H.S. Cho",
+    "authors": "E. Shitiri, H.B. Yilmaz, H.-S. Cho",
     "venue": "IEEE Access",
     "date": "2019-01-01",
     "year": "2019",
@@ -428,7 +428,7 @@
   },
   {
     "title": "Biological Oscillators in Nanonetworks—Opportunities and Challenges",
-    "authors": "E. Shitiri, A.V. Vasilakos, H.S. Cho",
+    "authors": "E. Shitiri, A.V. Vasilakos, H.-S. Cho",
     "venue": "Sensors",
     "date": "2018-05-13",
     "year": "2018",
@@ -444,7 +444,7 @@
   },
   {
     "title": "Achieving in-phase synchronization in a diffusion-based nanonetwork with unknown propagation delay",
-    "authors": "E. Shitiri, H.S. Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "Proceedings of the 4th ACM International Conference on Nanoscale Computing and Communication",
     "date": "2017-09-27",
     "year": "2017",
@@ -462,7 +462,7 @@
   },
   {
     "title": "OrMAC: A Hybrid MAC Protocol Using Orthogonal Codes for Channel Access in M2M Networks",
-    "authors": "E. Shitiri, I.S. Park, H.S. Cho",
+    "authors": "E. Shitiri, I.S. Park, H.-S. Cho",
     "venue": "Sensors",
     "date": "2017-09-17",
     "year": "2017",
@@ -478,7 +478,7 @@
   },
   {
     "title": "Impact of Propagation Delay and Nanomachine Position on the Synchronization Error Ratio",
-    "authors": "Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "KICS Summer Conference, Jeju, South Korea",
     "date": "2017-06-01",
     "year": "2017",
@@ -493,7 +493,7 @@
   },
   {
     "title": "A low complexity synchronization scheme for nanonetworks",
-    "authors": "Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "KICS Winter Conference, Jeongseon, South Korea",
     "date": "2017-02-01",
     "year": "2017",
@@ -508,7 +508,7 @@
   },
   {
     "title": "Network Allocation Vector (NAV) Optimization for Underwater Handshaking-Based Protocols",
-    "authors": "J. Cho, E. Shitiri, H.S. Cho",
+    "authors": "J. Cho, E. Shitiri, H.-S. Cho",
     "venue": "Sensors",
     "date": "2016-12-24",
     "year": "2016",
@@ -524,7 +524,7 @@
   },
   {
     "title": "A Biochemical Oscillator Using Excitatory Molecules for Nanonetworks",
-    "authors": "E. Shitiri, H.S. Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "IEEE Transactions on NanoBioscience",
     "date": "2016-10-01",
     "year": "2016",
@@ -540,7 +540,7 @@
   },
   {
     "title": "An orthogonal coded hybrid MAC protocol with received power based prioritization for M2M networks",
-    "authors": "In-Seop Park, E. Shitiri, Ho-Shin Cho",
+    "authors": "In-Seop Park, E. Shitiri, H.-S. Cho",
     "venue": "2016 Eighth International Conference on Ubiquitous and Future Networks (ICUFN)",
     "date": "2016-07-01",
     "year": "2016",
@@ -558,7 +558,7 @@
   },
   {
     "title": "Synchronization using Excitatory Molecules in Nanonetworks",
-    "authors": "Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "JCCI, The Joint Conference on Communications and Information, Sokcho, South Korea",
     "date": "2016-04-01",
     "year": "2016",
@@ -573,7 +573,7 @@
   },
   {
     "title": "Molecular Oscillator: A bio-inspired oscillator for Molecular Nanonetworks",
-    "authors": "Ethungshan Shitiri, Ho-Shin Cho",
+    "authors": "E. Shitiri, H.-S. Cho",
     "venue": "KICS Summer Conference, Jeju, South Korea",
     "date": "2015-06-01",
     "year": "2015",
