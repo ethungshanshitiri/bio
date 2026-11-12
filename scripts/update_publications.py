@@ -101,6 +101,29 @@ def format_author(author: dict[str, Any]) -> str:
     return clean_text(f"{initials} {family}")
 
 
+def normalize_authors(value: str | None) -> str:
+    """Use consistent initials for author names with known full name forms."""
+    aliases = {
+        "Ethungshan Shitiri": "E. Shitiri",
+        "E. Shitiiri": "E. Shitiri",
+        "Shitiri E.": "E. Shitiri",
+        "Ho-Shin Cho": "H.-S. Cho",
+        "H.S. Cho": "H.-S. Cho",
+        "Faisal Ahmed": "F. Ahmed",
+        "Tania Islam": "T. Islam",
+        "Ida Kleger-Rudomin": "I. Kleger-Rudomin",
+        "Filip Lemic": "F. Lemic",
+        "Sergi Abadal": "S. Abadal",
+        "Eduard Alarcon": "E. Alarcón",
+        "Eduard Alarcón": "E. Alarcón",
+        "E. Alarcon": "E. Alarcón",
+    }
+    authors = clean_text(value)
+    for name, normalized in aliases.items():
+        authors = authors.replace(name, normalized)
+    return authors
+
+
 def section_for(record_type: str, source: str) -> str:
     record_type = (record_type or "").lower()
     if source == "arXiv":
@@ -258,6 +281,7 @@ def finalize_record(record: dict[str, Any]) -> dict[str, Any]:
     for key, value in list(record.items()):
         if isinstance(value, str):
             record[key] = clean_text(value)
+    record["authors"] = normalize_authors(record.get("authors"))
     return record
 
 
