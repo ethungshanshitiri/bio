@@ -3,7 +3,7 @@
     "title": "Reliable Medical Condition Detection from Noisy Location-aware Multimodal Cardiovascular IoBNT Telemetry",
     "authors": "D. Volpi, F. Lemic, G. Encinas-Lago, E. Shitiri, S. Abadal, E. Alarcón, X. Costa-Pérez",
     "venue": "34th ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL)",
-    "date": "2026",
+    "date": "2026-11",
     "year": "2026",
     "doi": "",
     "arxiv_id": "",
@@ -12,8 +12,7 @@
     "source": "Manual",
     "section": "conference_papers",
     "label": "C19",
-    "order": 19,
-    "note": "Accepted"
+    "order": 19
   },
   {
     "title": "Whole-Blood Boundary Analysis of BioFET-Based ctDNA Detection for Intravascular Sensing in Intrabody Nanonetworks",
